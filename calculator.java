@@ -259,7 +259,6 @@ public class calculator extends Frame implements ActionListener {
 			if (opt == 'X' && current == 0);	// 如果沒有運算元 被運算數也為0時 甚麼事情都不做
 			else if (lab.getText() != "ERROR") {	// 當error_check()執行完畢後
 													// 如果面板中之字非ERROR時(代表沒有錯誤)
-													// 執行下列敘述
 				compute();			// 呼叫computer() (執行運算)
 				opt_count = false;	// 將運算元連續按下兩次之記錄變數關閉
 				opt_press = true;	// 表示以按下過運算元 下次輸入數字時將面板將歸零
