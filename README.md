@@ -9,4 +9,4 @@ a simple integer calculator written in Java
 
 ## License
 
-"MIT license":http://www.opensource.org/licenses/mit-license.php
+[MIT License](http://www.opensource.org/licenses/mit-license.php)
